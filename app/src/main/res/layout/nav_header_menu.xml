@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/logo"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/headerInfo"
+    android:paddingLeft="10dp"
+    android:layout_below="@+id/logo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="#0c2f3c"
+        android:textStyle="bold"
+        android:text="Americanas.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="#0c2f3c"
+        android:text="suporte@americanas.com.br" />
+</LinearLayout>
+
+    <View
+     android:layout_below="@+id/headerInfo"
+    android:layout_width="match_parent"
+    android:layout_height="2.5dp"
+    android:background="#e6e6e6" />
+
+</RelativeLayout>

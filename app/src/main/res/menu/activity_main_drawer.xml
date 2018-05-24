@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Departamento"
+            android:icon="@drawable/ic_departamentos"
+            android:title="Departamentos" />
+        <item
+            android:id="@+id/nav_Site"
+            android:icon="@drawable/ic_destaques"
+            android:title="Últimas ofertas" />
+    </group>
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Americanas.com</string>
+    <string name="ERRO_BUSCA_PRODUTO">Falha ao buscar Produto</string>
+    <string name="URL_GET_PRODUCTS_BY_CATEGORY">http://app-bff-v2-americanas.b2w.io/product_cells_by_category_filtered?</string>
+    <string name="URL_GET_DEPARTAMENTS">https://spacey-api-v2-americanas.b2w.io/v2/spacey-api/publication/app/menu/feather</string>
+    <string name="URL_GET_PRODUCTS_BY_ID">https://app-bff-v2-americanas.b2w.io/product_cells_by_ids?productIds=129271207</string>
+    <string name="URL_NAMESPACE">http://tempuri.org/</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
